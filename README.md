@@ -1,9 +1,9 @@
 # Algorithmique et Structures de Données
 
-Ce dépôt contient le matériel pédagogique du cours **Algorithmique et Structures de Données**.  
+Ce dépôt contient le matériel pédagogique du cours **Algorithmique et Structures de Données** et **Atelier de Programmation en C** .  
 Vous y trouverez :
 
-- 📑 **Supports de cours** (slides par chapitre)  
+- 📑 **Supports de cours**
 - 📝 **Travaux Dirigés (TDs)**  
 - 💻 **Travaux Pratiques (TPs)**  
 
@@ -32,10 +32,3 @@ Vous y trouverez :
 - [TP2](TPs/TP2.pdf)  
 - [TP3](TPs/TP3.pdf)  
 
----
-
-## 🚀 Utilisation
-
-1. Clonez ce dépôt :  
-   ```bash
-   git clone https://github.com/<username>/algorithmique-structures-donnees.git
