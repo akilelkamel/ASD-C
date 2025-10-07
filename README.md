@@ -5,7 +5,8 @@ Vous y trouverez :
 
 ## 📑 Supports de cours (Slides)
 
-- [Chapitre 1](slides/chapter1.pdf)  
-- [Chapitre 2](slides/chapter2.pdf)  
-- [Chapitre 3](slides/chapter3.pdf)  
+- [Chapitre 1: Introduction à l'algorithmique](slides/chapter1.pdf)  
+- [Chapitre 2: Les opérateurs de base & les fonctions d’E/S](slides/chapter2.pdf)  
+- [Chapitre 3: Les instructions de contrôle](slides/chapter3.pdf)
+- [Chapitre 4: Les sous-programmes](slides/chapter4.pdf)
 *(les autres chapitres seront ajoutés au fur et à mesure)*
