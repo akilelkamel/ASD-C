@@ -9,6 +9,7 @@ Vous y trouverez :
 - [Chapitre 2: Les opérateurs de base & les fonctions d’E/S](slides/chapter2.pdf)  
 - [Chapitre 3: Les instructions de contrôle](slides/chapter3.pdf)
 - [Chapitre 4: Les sous-programmes](slides/chapter4.pdf)
+- [Chapitre 5: La récursivité](slides/chapter5.pdf)
 
   
 *(les autres chapitres seront ajoutés au fur et à mesure)*
