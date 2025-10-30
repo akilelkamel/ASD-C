@@ -11,6 +11,10 @@ Vous y trouverez :
 - [Chapitre 4: Les sous-programmes](slides/chapter4.pdf)
 - [Chapitre 5: La récursivité](slides/chapter5.pdf)
 - [Chapitre 6: Les tableaux](slides/chapter6.pdf)
+- [Chapitre 7: Les chaînes de caractères](slides/chapter7.pdf)
+
+
+
 
   
 *(les autres chapitres seront ajoutés au fur et à mesure)*
