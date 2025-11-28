@@ -12,7 +12,7 @@ Vous y trouverez :
 - [Chapitre 5: La récursivité](slides/chapter5.pdf)
 - [Chapitre 6: Les tableaux](slides/chapter6.pdf)
 - [Chapitre 7: Les chaînes de caractères](slides/chapter7.pdf)
-- [Chapitre 78: Les enregistrements](slides/chapter8.pdf)
+- [Chapitre 8: Les enregistrements](slides/chapter8.pdf)
 
 
 
