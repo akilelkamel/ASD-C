@@ -6,8 +6,8 @@ Vous y trouverez :
 ## 📑 Supports de cours (Slides)
 
 - [Chapitre 1: Introduction à l'algorithmique](slides/chapter1.pdf)  
-- [Chapitre 2: Les opérateurs de base & les fonctions d’E/S](slides/chapter2.pdf)  
-- [Chapitre 3: Les instructions de contrôle](slides/chapter3.pdf)
+- [Chapitre 2: Les opérateurs de base & les fonctions d’E/S](slides/chapter2.pdf) [Exercices d'application (avec correction)](exercices/chapter2.md)
+- [Chapitre 3: Les instructions de contrôle](slides/chapter3.pdf) [Exercices d'application (avec correction)](exercices/chapter3.md)
 - [Chapitre 4: Les sous-programmes](slides/chapter4.pdf)
 - [Chapitre 5: La récursivité](slides/chapter5.pdf)
 - [Chapitre 6: Les tableaux](slides/chapter6.pdf)
