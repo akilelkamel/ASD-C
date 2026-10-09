@@ -19,6 +19,7 @@ Vous y trouverez :
 
 - [Chapitre 2](exercices/chapter2.md)
 - [Chapitre 3](exercices/chapter3.md)
+- [Chapitre 4](exercices/chapter4.md)
 
   
 *(les autres chapitres seront ajoutés au fur et à mesure)*
