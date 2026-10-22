@@ -1,6 +1,6 @@
-# Algorithmique et Structures de Données et Atelier de Programmation en C 
+# Algorithmique et Structures de Données et Programmation en C 
 
-Ce dépôt contient le matériel pédagogique du cours **Algorithmique et Structures de Données** et **Atelier de Programmation en C**.  
+Ce dépôt contient le matériel pédagogique des cours **Algorithmique et Structures de Données** et **Programmation en C**.  
 Vous y trouverez :
 
 ## 📑 Supports de cours (Slides)
@@ -20,6 +20,7 @@ Vous y trouverez :
 - [Chapitre 2](exercices/chapter2.md)
 - [Chapitre 3](exercices/chapter3.md)
 - [Chapitre 4](exercices/chapter4.md)
+- [Chapitre 5](exercices/chapter5.md)
 
   
 *(les autres chapitres seront ajoutés au fur et à mesure)*
