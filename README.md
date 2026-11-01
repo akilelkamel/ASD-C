@@ -21,6 +21,6 @@ Vous y trouverez :
 - [Chapitre 3](exercices/chapter3.md)
 - [Chapitre 4](exercices/chapter4.md)
 - [Chapitre 5](exercices/chapter5.md)
-
+- [Correction du TD4](exercices/td4-correction.md)
   
 *(les autres chapitres seront ajoutés au fur et à mesure)*
