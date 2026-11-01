@@ -102,13 +102,18 @@ void main () {
 | Appel   | n | w  | i |
 |---------|---|----|---|
 | Initial | 3 | 1  | 1 |
-| Étape 1 | 2 | 4  | 2 |
-| Étape 2 | 1 | 15 | 3 |
-| Étape 3 | 0 | 50 | 4 |
+| Etape 1 | 2 | 4  | 2 |
+| Etape 2 | 1 | 15 | 3 |
+| Etape 3 | 0 | 50 | 4 |
 
 
 Lorsque `n == 0`, la procédure renvoie directement `w`, soit `50`.
 
+
+La transformation consiste à remplacer les calculs différés par une mise à jour de l’accumulateur `w`. Ainsi, l’appel récursif devient la dernière opération de la procédure: **c’est la récursivité terminale**.
+
+
+![](imgs/recursivite_non_terminale_vers_terminale.gif)
 
 ------------------------------------------------------------------------
 

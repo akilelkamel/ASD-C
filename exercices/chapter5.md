@@ -13,7 +13,7 @@ Soit la suite numérique $U_n$ définie par :
 $U_0 = 4$
 
 
-et, pour \(n > 0\) :
+et, pour $n > 0$ :
 
 $U_n = 2 \times U_{n-1} + 9$
 
@@ -47,7 +47,7 @@ void main()
 }
 ```
 
-**Explication :** le cas de base est `n == 0`, pour lequel la fonction retourne `4`. Pour `n > 0`, elle calcule \(U_n\) à partir du terme précédent, \(U_{n-1}\).
+**Explication :** le cas de base est `n == 0`, pour lequel la fonction retourne `4`. Pour `n > 0`, elle calcule $U_n$ à partir du terme précédent, $U_{n-1}$.
 
 ------------------------------------------------------------------------
 
@@ -55,15 +55,14 @@ void main()
 
 ### Enoncé
 
-Ecrire deux fonctions C qui calculent les termes d’indice `n` des suites entières \(U_n\) et \(V_n\), définies par :
+Ecrire deux fonctions C qui calculent les termes d’indice `n` des suites entières $U_n$ et $V_n$, définies par :
 
 $U_0 = 1 \qquad V_0 = 0$
 
 
-Pour \(n > 0\) :
+Pour $n > 0$ :
 
 $U_n = V_{n-1} + 1  \qquad  V_n = 2 \times U_{n-1}$
-\]
 
 ### Correction
 
@@ -153,7 +152,7 @@ void main()
 }
 ```
 
-**Explication :** si `x == 0`, aucun entier positif n’est à additionner : la somme vaut `0`. Sinon, on ajoute \(x^2\) à la somme des carrés des entiers de `1` à `x - 1`. Si `x` est négatif, la fonction retourne `-1`.
+**Explication :** si `x == 0`, aucun entier positif n’est à additionner : la somme vaut `0`. Sinon, on ajoute $x^2$ à la somme des carrés des entiers de `1` à `x - 1`. Si `x` est négatif, la fonction retourne `-1`.
 
 ------------------------------------------------------------------------
 
