@@ -8,19 +8,17 @@
 
 ### Enoncé
 
-Soit la suite numérique \(U_n\) définie par :
+Soit la suite numérique $U_n$ définie par :
 
-\[
-U_0 = 4
-\]
+$U_0 = 4$
+
 
 et, pour \(n > 0\) :
 
-\[
-U_n = 2 \times U_{n-1} + 9
-\]
+$U_n = 2 \times U_{n-1} + 9$
 
-Ecrire une fonction C qui calcule le terme \(U_n\), pour tout entier `n` passé en argument.
+
+Ecrire une fonction C qui calcule le terme $U_n$, pour tout entier `n` passé en argument.
 
 ### Correction
 
@@ -59,16 +57,12 @@ void main()
 
 Ecrire deux fonctions C qui calculent les termes d’indice `n` des suites entières \(U_n\) et \(V_n\), définies par :
 
-\[
-U_0 = 1 \qquad V_0 = 0
-\]
+$U_0 = 1 \qquad V_0 = 0$
+
 
 Pour \(n > 0\) :
 
-\[
-U_n = V_{n-1} + 1
-\qquad
-V_n = 2 \times U_{n-1}
+$U_n = V_{n-1} + 1  \qquad  V_n = 2 \times U_{n-1}$
 \]
 
 ### Correction
@@ -124,9 +118,7 @@ Ecrire une fonction récursive qui retourne la somme des carrés des `x` premier
 
 **Exemple :** pour `x = 4`, le résultat est :
 
-\[
-1^2 + 2^2 + 3^2 + 4^2 = 30
-\]
+$1^2 + 2^2 + 3^2 + 4^2 = 30$
 
 ### Correction
 
@@ -222,14 +214,14 @@ On souhaite calculer le PGCD de deux nombres naturels non nuls `a` et `b` en uti
 
 La définition utilisée est :
 
-\[
+$$
 PGCD(a,b)=
 \begin{cases}
 a & \text{si } a=b\\
 PGCD(a-b,b) & \text{si } a>b\\
 PGCD(a,b-a) & \text{si } b>a
 \end{cases}
-\]
+$$
 
 ### Correction
 
