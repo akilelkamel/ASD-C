@@ -274,6 +274,49 @@ void main()
 ------------------------------------------------------------------------
 
 
+## Exercice 5 : Somme des chiffres et persistance additive
+
+```c
+#include <stdio.h>
+
+int somme_chiffres_NT (int n)
+{
+    if (n < 10)
+        return n;
+    else
+        return (n%10) + somme_chiffres_NT(n/10);
+}
+
+int somme_chiffres_T (int n, int acc)
+{
+    if (n == 0)
+        return acc;
+    else
+        return somme_chiffres_T(n/10, acc+(n % 10));
+}
+
+int persistance (int n, int etapes)
+{
+    if (n < 10)
+        return etapes;
+    else
+        return persistance (somme_chiffres_T(n, 0), etapes+1);
+}
+void main ()
+{
+    int n;
+    printf("Donner un entier positif n: ");
+    scanf("%d", &n);
+    printf("Somme des chiffres de %d (NT) = %d\n", n, somme_chiffres_NT(n));
+    printf("Somme des chiffres de %d (T) = %d\n", n, somme_chiffres_T(n, 0));
+    printf("Persistance additive de %d = %d etape(s)\n", n, persistance (n, 0));
+}
+
+```
+
+------------------------------------------------------------------------
+
+
 ## Exercice 6 : Minimum et occurrences dans un tableau
 
 
@@ -338,4 +381,67 @@ void main ()
 
 ```
 
+------------------------------------------------------------------------
+
+
+## Exercice 7 : Symétrie et inversion d'un tableau
+
+```c
+#include <stdio.h>
+
+void afficher_tableau (int T[], int N, int i)
+{
+    if (i == N)
+        printf ("\n");
+    else
+    {
+        printf ("%d ", T[i]);
+        afficher_tableau (T, N, i + 1);
+    }
+}
+
+int est_symetrique (int T[], int debut, int fin)
+{
+    if (debut >= fin)
+        return 1;
+    else
+    {
+        if (T[debut] != T[fin])
+            return 0;
+        else
+            return est_symetrique(T, debut+1, fin-1);
+    }
+}
+
+void inverser_tableau (int T[], int debut, int fin)
+{
+    int tmp;
+    if (debut < fin)
+    {
+        tmp = T[debut];
+        T[debut] = T[fin];
+        T[fin] = tmp;
+        inverser_tableau (T, debut+1, fin-1);
+    }
+}
+
+void main ()
+{
+    int T1 [] = {1, 4, 7, 9, 7, 4, 1};
+    int T2 [] = {10, 20, 30, 40, 50};
+    int N1 = 7, N2 = 5;
+    printf("T1: ");
+    afficher_tableau(T1, N1, 0);
+    if(est_symetrique(T1, 0, N1-1))
+        printf("T1 est symetrique.\n");
+    else
+        printf("T1 N'est PAS symetrique .\n");
+    printf ("\nT2 (avant inversion): ");
+    afficher_tableau (T2, N2, 0);
+    inverser_tableau (T2, 0, N2-1);
+    printf("T2 (apres inversion ) : ");
+    afficher_tableau (T2, N2, 0);
+}
+
+```
 ------------------------------------------------------------------------

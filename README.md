@@ -1,6 +1,6 @@
 # Algorithmique et Structures de Données et Programmation en C 
 
-Ce dépôt contient le matériel pédagogique des cours **Algorithmique et Structures de Données** et **Programmation en C**.  
+Ce dépôt contient le matériel pédagogique des cours **Algorithmique et Structures de Données** / **Programmation en C**.  
 Vous y trouverez :
 
 ## 📑 Supports de cours (Slides)
@@ -15,6 +15,10 @@ Vous y trouverez :
 - Chapitre 8: Les enregistrements
 - Chapitre 9: Les algorithmes de tri et de recherche
 
+
+*(les autres chapitres seront ajoutés au fur et à mesure)*
+
+
 ## 📑 Exercices d'application (avec correction)
 
 - [Chapitre 2](exercices/chapter2.md)
@@ -23,4 +27,8 @@ Vous y trouverez :
 - [Chapitre 5](exercices/chapter5.md)
 - [Correction du TD4](exercices/td4-correction.md)
   
-*(les autres chapitres seront ajoutés au fur et à mesure)*
+
+## ✍ Examens de l'année dernière:
+
+- [DS Programmation C](exams/ds-c.pdf)
+- [DS ASD](exams/ds-asd.pdf)
