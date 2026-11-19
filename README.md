@@ -11,7 +11,7 @@ Vous y trouverez :
 - [Chapitre 4: Les sous-programmes](slides/chapter4.pdf)
 - [Chapitre 5: La récursivité](slides/chapter5.pdf)
 - [Chapitre 6: Les tableaux](slides/chapter6.pdf)
-- Chapitre 7: Les chaînes de caractères
+- [Chapitre 7: Les chaînes de caractères](slides/chapter7.pdf)
 - Chapitre 8: Les enregistrements
 - Chapitre 9: Les algorithmes de tri et de recherche
 
