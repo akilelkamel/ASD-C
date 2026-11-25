@@ -12,8 +12,10 @@ Vous y trouverez :
 - [Chapitre 5: La récursivité](slides/chapter5.pdf)
 - [Chapitre 6: Les tableaux](slides/chapter6.pdf)
 - [Chapitre 7: Les chaînes de caractères](slides/chapter7.pdf)
-- Chapitre 8: Les enregistrements
-- Chapitre 9: Les algorithmes de tri et de recherche
+- [Chapitre 8: Les enregistrements](slides/chapter8.pdf)
+- [Chapitre 9: Les algorithmes de tri et de recherche](slides/chapter9.pdf)
+- Chapitre 10: Les pointeurs
+- Chapitre 11: Les fichiers
 
 
 *(les autres chapitres seront ajoutés au fur et à mesure)*
